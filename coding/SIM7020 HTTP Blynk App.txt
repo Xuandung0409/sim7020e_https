@@ -1,0 +1,10 @@
+https://blynk.cloud/external/api/get?token=OBiC5x6f3x0REaGfptkHSxgOB_HVZs-P&v1
+
+AT+CHTTPCREATE="https://blynk.cloud/external/api/"
+AT+CHTTPCON=0
+AT+CHTTPSEND=0,0,"/get?token=OBiC5x6f3x0REaGfptkHSxgOB_HVZs-P&v0&v1&v2&v3&v4"
+AT+CHTTPSEND=0,0,"/batch/update?token=OBiC5x6f3x0REaGfptkHSxgOB_HVZs-P&v5=12"
+
+
+
+OBiC5x6f3x0REaGfptkHSxgOB_HVZs-P
